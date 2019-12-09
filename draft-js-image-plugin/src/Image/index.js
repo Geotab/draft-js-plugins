@@ -23,7 +23,7 @@ export default class Image extends Component {
     return (
       <img
         {...elementProps}
-        src={src}
+        data-src={src}
         role="presentation"
         className={combinedClassName}
       />
